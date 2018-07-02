@@ -40,9 +40,9 @@ def compareImages(firstImagePath, secondImagePath):
 
 
 
-"""-------------MAIN------------"""
+"""-------------TEST------------"""
 
-def main():
+def test():
 	imgPath1 = getImagePath(global_imageCounter[FISRT_CAMERA_ID])
 	takePhoto(imgPath, FISRT_CAMERA_ID)
 	global_imageCounter[FISRT_CAMERA_ID] += 1
@@ -66,7 +66,7 @@ def main():
 
 
 
-main()
+test()
 
 
 	
