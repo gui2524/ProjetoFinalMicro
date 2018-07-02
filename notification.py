@@ -11,6 +11,12 @@ global_nextUpdateId = 0
 
 """-------------FUNCTIONS------------"""
 
+def sendMessage(message):
+	address = global_baseAddress + "/sendMessage""
+	data = {"chat_id": global_chatId, "text": message}}
+	response = post(address, data=data, files=file)
+	print(response)
+
 def sendPhoto(imagePath):
 	address = global_baseAddress + "/sendPhoto"
 	data = {"chat_id": global_chatId}
