@@ -13,7 +13,6 @@ def formatText(text):
     textFormatted = timeFormatted + " ---> " + text + "\n"
     return textFormatted
 
-
 def log(text):
     logText = formatText(text)
     print(logText)
@@ -22,7 +21,9 @@ def eventLog(text):
     logText = formatText(text)
     log(text)
     with open(LOG_FILE, "a") as textFile:
-		    textFile.write(logText)
+        textFile.write(logText)
 
 
 """-------------TEST------------"""
+# eventLog("TesteA")
+# log("TesteB")
