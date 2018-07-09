@@ -1,0 +1,21 @@
+[
+    {
+        "nome":"sala",
+        "tracker":2,
+        "sensor_de_som":3,
+        "sensor_presenca":4
+    },
+    {
+        "nome": "quarto",
+        "sensor_presenca":9,
+		"tracker":10,
+        "sensor_de_som":5
+    },
+    {
+        "nome": "garagem",
+        "sensor_de_som":16,
+        "sensor_presenca":20,
+		"tracker":24                                                            
+    }
+
+]

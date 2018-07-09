@@ -42,31 +42,18 @@ def compareImages(firstImagePath, secondImagePath):
 
 """-------------TEST------------"""
 
-def test():
-    imgPath1 = getImagePath(global_imageCounter)
-    takePhoto(imgPath1, FISRT_CAMERA_ID)
-    global_imageCounter += 1
-    imgPath2 = getImagePath(global_imageCounter
-    takePhoto(imgPath2, SECOND_CAMERA_ID)
-    global_imageCounter += 1
-    imgPath3 = getImagePath(global_imageCounter)
-    takePhoto(imgPath3, FISRT_CAMERA_ID)
-    global_imageCounter += 1
-    imgPath4 = getImagePath(global_imageCounter
-    takePhoto(imgPath4, SECOND_CAMERA_ID)
-    global_imageCounter += 1
-
-    comp1 = compareImages(imagePath1, imagePath3)
-    comp2 = compareImages(imagePath2, imagePath4)
-    print(comp1)
-    print(comp2)
-
-	
-
-
-
-
-test()
-
-
-	
+# imgPath1 = getImagePath(global_imageCounter)
+# takePhoto(imgPath1, FISRT_CAMERA_ID)
+# global_imageCounter += 1
+# imgPath2 = getImagePath(global_imageCounter
+# takePhoto(imgPath2, SECOND_CAMERA_ID)
+# global_imageCounter += 1
+# imgPath3 = getImagePath(global_imageCounter)
+# takePhoto(imgPath3, FISRT_CAMERA_ID)
+# global_imageCounter += 1
+# imgPath4 = getImagePath(global_imageCounter
+# takePhoto(imgPath4, SECOND_CAMERA_ID)
+# global_imageCounter += 1
+#
+# compareImages(imagePath1, imagePath3)
+# compareImages(imagePath2, imagePath4)
