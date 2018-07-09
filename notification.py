@@ -12,16 +12,16 @@ global_nextUpdateId = 0
 """-------------FUNCTIONS------------"""
 
 def sendMessage(message):
-	address = global_baseAddress + "/sendMessage""
-	data = {"chat_id": global_chatId, "text": message}}
-	response = post(address, data=data, files=file)
+	address = global_baseAddress + "/sendMessage"
+	data = {"chat_id": global_chatId, "text": message}
+	response = post(address, data=data)
 	print(response)
 
 def sendPhoto(imagePath):
 	address = global_baseAddress + "/sendPhoto"
 	data = {"chat_id": global_chatId}
-	file = {"photo": open("foto.jpeg", "rb")}
-	response = post(address, data=data, files=file)
+	photoFile = {"photo": open("foto.jpeg", "rb")}
+	response = post(address, data=data, files=photoFile)
 	print(response)
 
 def getUpdates():
@@ -30,13 +30,14 @@ def getUpdates():
 	response = get(address, json=data)
 	print(response)
 	
-	if(response == null):
-		return null
+	if(response == None):
+		return None
 	
-	responseDict = response.json()
-	
-	for result in responseDict["result"]:
-		message = result["message"]
+    responseDict = response.json()
+
+
+    for result in responseDict["result"]:
+        message = result["message"]
 		if "text" in message:
 			text = message["text"]
 		elif "voice" in message:
@@ -50,7 +51,7 @@ def getUpdates():
 def getFile(fileId, fileName):
 	address = global_baseAddress + "/getFile"
 	data = {"file_id": fileId}
-	response = get(endereco, json=dados)
+	response = get(endereco, json=data)
 	print(response)
 	
 	if(response == null):

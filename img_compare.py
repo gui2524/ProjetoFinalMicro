@@ -4,11 +4,11 @@ import cv2
 
 """-------------GLOBAL VARIABLES------------"""
 
-HISTOGRAM_DIFF_THRESHOLD = 10
-FISRT_CAMERA_ID = 0
+HISTOGRAM_DIFF_THRESHOLD = 1
+FIRST_CAMERA_ID = 0
 SECOND_CAMERA_ID = 1
 
-global_imageCounter = [0,0]
+global_imageCounter = 0
 
 
 
@@ -16,14 +16,14 @@ global_imageCounter = [0,0]
 
 def takePhoto(imagePath, cameraId):
 	comando = "fswebcam -d /dev/video" + str(cameraId) + " " + imagePath
-	system(comando) 
+	system(comando)
 
 def getImagePath(imageId):
 	return "img-" + str(imageId) + ".jpeg"
 
 def getImageHist(imagePath):
 	image = cv2.imread(imagePath)
-	hist = cv2.calcHist(image, [0, 1, 2], None, [8, 8, 8],[0, 256, 0, 256, 0, 256])
+	hist = cv2.calcHist(image, [0], None, [8],[0, 256])
 	hist = cv2.normalize(hist).flatten()
 	print(hist)
 	return hist
@@ -43,23 +43,23 @@ def compareImages(firstImagePath, secondImagePath):
 """-------------TEST------------"""
 
 def test():
-	imgPath1 = getImagePath(global_imageCounter[FISRT_CAMERA_ID])
-	takePhoto(imgPath, FISRT_CAMERA_ID)
-	global_imageCounter[FISRT_CAMERA_ID] += 1
-	imgPath2 = getImagePath(global_imageCounter[SECOND_CAMERA_ID])
-	takePhoto(imgPath, SECOND_CAMERA_ID)
-	global_imageCounter[SECOND_CAMERA_ID] += 1
-	imgPath3 = getImagePath(global_imageCounter[FISRT_CAMERA_ID])
-	takePhoto(imgPath, FISRT_CAMERA_ID)
-	global_imageCounter[FISRT_CAMERA_ID] += 1
-	imgPath4 = getImagePath(global_imageCounter[SECOND_CAMERA_ID])
-	takePhoto(imgPath, SECOND_CAMERA_ID)
-	global_imageCounter[SECOND_CAMERA_ID] += 1
+    imgPath1 = getImagePath(global_imageCounter)
+    takePhoto(imgPath1, FISRT_CAMERA_ID)
+    global_imageCounter += 1
+    imgPath2 = getImagePath(global_imageCounter
+    takePhoto(imgPath2, SECOND_CAMERA_ID)
+    global_imageCounter += 1
+    imgPath3 = getImagePath(global_imageCounter)
+    takePhoto(imgPath3, FISRT_CAMERA_ID)
+    global_imageCounter += 1
+    imgPath4 = getImagePath(global_imageCounter
+    takePhoto(imgPath4, SECOND_CAMERA_ID)
+    global_imageCounter += 1
 
-	comp1 = compareImages(imagePath1, imagePath3)
-	comp2 = compareImages(imagePath2, imagePath4)
-	print(comp1)
-	print(comp2)
+    comp1 = compareImages(imagePath1, imagePath3)
+    comp2 = compareImages(imagePath2, imagePath4)
+    print(comp1)
+    print(comp2)
 
 	
 
