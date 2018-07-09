@@ -1,3 +1,7 @@
+#canarinho{
+	position:absolute;
+	right: 0;
+}
 * {
 box-sizing: border-box;
 }
@@ -7,15 +11,15 @@ box-sizing: border-box;
 }
 body {
 font-family: Arial;
-background-color: #3498DB;
+background-color: #46d82c;
 padding: 50px;
 }
 .login {
 margin: 20px auto;
-width: 300px;
+width: 400px;
 }
 .login-screen {
-background-color: #FFF;
+background-color: #f5ed04;
 padding: 20px;
 border-radius: 5px
 }

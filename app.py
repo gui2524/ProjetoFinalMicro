@@ -1,13 +1,28 @@
 import os
+import base64
+import sqlite3
 from importlib import import_module
 from flask import Flask, flash, redirect, render_template, request, session, abort, Response
 from sqlalchemy.orm import sessionmaker
+from Crypto.Cipher import XOR
 from tabledef import *
+
+
 engine = create_engine('sqlite:///security.db', echo=True)
 
 Camera = import_module('camera_opencv').Camera
+
+key = 'secretkey'
  
 app = Flask(__name__)
+
+def encrypt(key, plaintext):
+  cipher = XOR.new(key)
+  return base64.b64encode(cipher.encrypt(plaintext))
+
+def decrypt(key, ciphertext):
+  cipher = XOR.new(key)
+  return cipher.decrypt(base64.b64decode(ciphertext))
 
 def gen(camera):
     """Video streaming generator function."""
@@ -29,10 +44,43 @@ def video_feed():
     return Response(gen(Camera()),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
+@app.route('/cadastro')
+def cadastro():
+    if not session.get('logged_in'):
+        return render_template('login.html')
+    else:
+        if not session.get('admin'):
+            return render_template('login.html')
+        else:
+            return render_template('cadastro.html')
 
 @app.route('/stream')
 def stream():
-    return render_template('stream.html')
+    if not session.get('logged_in'):
+        return render_template('login.html')
+    else:
+        return render_template('stream.html')
+    
+@app.route('/signup', methods=['POST'])
+def signup():
+    POST_USERNAME = str(request.form['username'])
+    POST_PASSWORD = str(request.form['password'])
+
+    # Encryption    
+    cipher_password = encrypt(key, POST_PASSWORD)
+    print(cipher_password);
+            
+    conn = sqlite3.connect('security.db')
+    sql = ''' INSERT INTO users (username, password) VALUES (?,?) '''
+    project = (POST_USERNAME, cipher_password);
+    cur = conn.cursor()
+    cur.execute(sql, project)
+            
+    if cur.lastrowid:
+        return render_template('success.html')
+    else:
+        flash('Erro!')
+    return home()
 
  
 @app.route('/login', methods=['POST'])
@@ -40,13 +88,17 @@ def do_admin_login():
  
     POST_USERNAME = str(request.form['username'])
     POST_PASSWORD = str(request.form['password'])
+	
+    # Encryption    
+    cipher_password = encrypt(key, POST_PASSWORD)
  
     Session = sessionmaker(bind=engine)
     s = Session()
-    query = s.query(User).filter(User.username.in_([POST_USERNAME]), User.password.in_([POST_PASSWORD]) )
+    query = s.query(User).filter(User.username.in_([POST_USERNAME]), User.password.in_([cipher_password]) )
     result = query.first()
     if result:
         session['logged_in'] = True
+        session['admin'] = True
     else:
         flash('wrong password!')
     return home()
