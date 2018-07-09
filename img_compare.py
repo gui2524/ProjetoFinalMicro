@@ -1,6 +1,7 @@
 from os import system
 import numpy as np
 import cv2
+import log
 
 """-------------GLOBAL VARIABLES------------"""
 
@@ -25,14 +26,13 @@ def getImageHist(imagePath):
     image = cv2.imread(imagePath)
     hist = cv2.calcHist(image, [0], None, [8],[0, 256])
     hist = cv2.normalize(hist).flatten()
-    print(hist)
     return hist
 
 def compareImages(firstImagePath, secondImagePath):
     firstHist  = getImageHist(firstImagePath)
     secondHist = getImageHist(secondImagePath)
     diff = cv2.compareHist(firstHist, secondHist, method=cv2.CV_COMP_CHISQR)
-    print(diff)
+    log.log(diff)
     if diff >= HISTOGRAM_DIFF_THRESHOLD:
         return True
     else:

@@ -6,6 +6,7 @@ from flask import Flask, flash, redirect, render_template, request, session, abo
 from sqlalchemy.orm import sessionmaker
 from Crypto.Cipher import XOR
 from tabledef import *
+import log
 
 
 engine = create_engine('sqlite:///security.db', echo=True)
@@ -18,10 +19,12 @@ app = Flask(__name__)
 
 def encrypt(key, plaintext):
   cipher = XOR.new(key)
+  log.eventLog("encrypt")
   return base64.b64encode(cipher.encrypt(plaintext))
 
 def decrypt(key, ciphertext):
   cipher = XOR.new(key)
+  log.eventLog("decrypt")
   return cipher.decrypt(base64.b64decode(ciphertext))
 
 def gen(camera):
@@ -63,12 +66,13 @@ def stream():
     
 @app.route('/signup', methods=['POST'])
 def signup():
+    log.eventLog("sign up")
     POST_USERNAME = str(request.form['username'])
     POST_PASSWORD = str(request.form['password'])
 
     # Encryption    
     cipher_password = encrypt(key, POST_PASSWORD)
-    print(cipher_password);
+    log.log(cipher_password);
             
     conn = sqlite3.connect('security.db')
     sql = ''' INSERT INTO users (username, password) VALUES (?,?) '''
@@ -85,7 +89,7 @@ def signup():
  
 @app.route('/login', methods=['POST'])
 def do_admin_login():
- 
+    log.eventLog("admin login")
     POST_USERNAME = str(request.form['username'])
     POST_PASSWORD = str(request.form['password'])
 	
