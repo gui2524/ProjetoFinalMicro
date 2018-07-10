@@ -4,8 +4,8 @@ import log
 
 """-------------GLOBAL VARIABLES------------"""
 
-global_key = "514006358:AAFHR8qpVhFFfH-xiL4hm_gONq16VfPWcDw"
-global_chatId = "440985403"
+global_key = ""
+global_chatId = ""
 global_baseAddress = "https://api.telegram.org/bot" + global_key
 global_nextUpdateId = 0
 
