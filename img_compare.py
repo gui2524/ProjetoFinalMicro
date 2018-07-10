@@ -2,12 +2,15 @@ from os import system
 import numpy as np
 import cv2
 import log
+import os
 
 """-------------GLOBAL VARIABLES------------"""
 
+global_diretorio_atual = os.path.dirname(os.path.abspath(__file__))
 HISTOGRAM_DIFF_THRESHOLD = 1
 FIRST_CAMERA_ID = 0
 SECOND_CAMERA_ID = 1
+THIRD_CAMERA_ID = 2
 
 global_imageCounter = 0
 
@@ -15,12 +18,23 @@ global_imageCounter = 0
 
 """-------------FUNCTIONS------------"""
 
-def takePhoto(imagePath, cameraId):
+def takePhoto(cameraId):
+    global global_imageCounter
+    imagePath = getImagePath(global_imageCounter)
+    global_imageCounter += 1
     comando = "fswebcam -d /dev/video" + str(cameraId) + " " + imagePath
+    log.log(comando)
     system(comando)
 
+    try:
+        open(imagePath, "rb")
+    except:
+        system(comando)
+    
+    return imagePath
+
 def getImagePath(imageId):
-    return "img-" + str(imageId) + ".jpeg"
+    return global_diretorio_atual + "/photos/img-" + str(imageId) + ".jpeg"
 
 def getImageHist(imagePath):
     image = cv2.imread(imagePath)
@@ -31,8 +45,8 @@ def getImageHist(imagePath):
 def compareImages(firstImagePath, secondImagePath):
     firstHist  = getImageHist(firstImagePath)
     secondHist = getImageHist(secondImagePath)
-    diff = cv2.compareHist(firstHist, secondHist, method=cv2.CV_COMP_CHISQR)
-    log.log(diff)
+    diff = cv2.compareHist(firstHist, secondHist, method=cv2.cv.CV_COMP_CHISQR)
+    log.log(str(diff))
     if diff >= HISTOGRAM_DIFF_THRESHOLD:
         return True
     else:
@@ -42,18 +56,8 @@ def compareImages(firstImagePath, secondImagePath):
 
 """-------------TEST------------"""
 
-# imgPath1 = getImagePath(global_imageCounter)
-# takePhoto(imgPath1, FISRT_CAMERA_ID)
-# global_imageCounter += 1
-# imgPath2 = getImagePath(global_imageCounter
-# takePhoto(imgPath2, SECOND_CAMERA_ID)
-# global_imageCounter += 1
-# imgPath3 = getImagePath(global_imageCounter)
-# takePhoto(imgPath3, FISRT_CAMERA_ID)
-# global_imageCounter += 1
-# imgPath4 = getImagePath(global_imageCounter
-# takePhoto(imgPath4, SECOND_CAMERA_ID)
-# global_imageCounter += 1
-#
-# compareImages(imagePath1, imagePath3)
-# compareImages(imagePath2, imagePath4)
+##path1 = getImagePath(0)
+##takePhoto(path1, FIRST_CAMERA_ID)
+##path = getImagePath(1)
+##takePhoto(path, FIRST_CAMERA_ID)
+##compareImages(path1, path)

@@ -2,20 +2,21 @@
     {
         "nome":"sala",
         "tracker":2,
-        "sensor_de_som":3,
-        "sensor_presenca":4
+        "sensor_presenca":4,
+	"cameraId":2
+
     },
     {
         "nome": "quarto",
-        "sensor_presenca":9,
-		"tracker":10,
-        "sensor_de_som":5
+        "tracker":5,
+        "sensor_de_som":6,
+	"cameraId":0
     },
     {
-        "nome": "garagem",
-        "sensor_de_som":16,
+        "nome": "garagem",    
+    	"sensor_de_luz":16,
         "sensor_presenca":20,
-		"tracker":24                                                            
+	"cameraId":1	                                                       
     }
 
 ]

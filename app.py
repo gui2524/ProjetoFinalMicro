@@ -7,6 +7,7 @@ from sqlalchemy.orm import sessionmaker
 from Crypto.Cipher import XOR
 from tabledef import *
 import log
+import sensors
 
 
 engine = create_engine('sqlite:///security.db', echo=True)
@@ -16,6 +17,7 @@ Camera = import_module('camera_opencv').Camera
 key = 'secretkey'
  
 app = Flask(__name__)
+
 
 def encrypt(key, plaintext):
   cipher = XOR.new(key)
@@ -30,12 +32,14 @@ def decrypt(key, ciphertext):
 def gen(camera):
     """Video streaming generator function."""
     while True:
+##        camera.set_video_source(global_vs)
         frame = camera.get_frame()
         yield (b'--frame\r\n'
                b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
  
 @app.route('/')
 def home():
+
     if not session.get('logged_in'):
         return render_template('login.html')
     else:
@@ -57,6 +61,25 @@ def cadastro():
         else:
             return render_template('cadastro.html')
 
+@app.route('/video_refresh/<int:x>')
+def video_refresh(x):
+    Camera().set_video_source(x)
+##    global_vs = x
+    if not session.get('logged_in'):
+        return render_template('login.html')
+    else:
+        return render_template('cameras.html')
+
+@app.route('/cameras')
+def cameras():
+    if not session.get('logged_in'):
+        return render_template('login.html')
+    else:
+        page = ""
+        for el in sensors.global_listaComodos:
+          page += "<a href=/video_refresh/"+ str(el.cameraId) +">"+ el.nome +"</a></br>"
+        return page
+
 @app.route('/stream')
 def stream():
     if not session.get('logged_in'):
@@ -71,14 +94,12 @@ def signup():
     POST_PASSWORD = str(request.form['password'])
 
     # Encryption    
-    cipher_password = encrypt(key, POST_PASSWORD)
-    log.log(cipher_password);
-            
+    cipher_password = encrypt(key, POST_PASSWORD)      
     conn = sqlite3.connect('security.db')
-    sql = ''' INSERT INTO users (username, password) VALUES (?,?) '''
-    project = (POST_USERNAME, cipher_password);
     cur = conn.cursor()
-    cur.execute(sql, project)
+    query = "INSERT INTO users (username, password) VALUES ('" + POST_USERNAME + "','" + cipher_password + "')"
+    log.eventLog(query)
+    cur.execute(query)
             
     if cur.lastrowid:
         return render_template('success.html')
@@ -112,6 +133,7 @@ def logout():
     session['logged_in'] = False
     return home()
  
-if __name__ == "__main__":
+def runApp():
+    log.eventLog("Rodando servidor")
     app.secret_key = os.urandom(12)
     app.run(debug=True,host='0.0.0.0', port=4000, threaded=True)
