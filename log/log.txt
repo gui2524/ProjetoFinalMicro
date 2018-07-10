@@ -1,0 +1,855 @@
+17:27:34 ---> Redefinindo arquivo de configuracao da sala
+17:27:34 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+17:27:34 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+17:27:34 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+17:27:34 ---> Rodando servidor
+17:27:38 ---> admin login
+17:27:39 ---> encrypt
+17:29:41 ---> Redefinindo arquivo de configuracao da sala
+17:29:41 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+17:29:41 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+17:29:41 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+17:29:41 ---> Rodando servidor
+17:29:45 ---> admin login
+17:29:45 ---> encrypt
+17:29:57 ---> admin login
+17:29:57 ---> encrypt
+17:57:46 ---> Rodando servidor
+17:57:49 ---> Rodando servidor
+17:58:11 ---> admin login
+17:58:11 ---> encrypt
+17:59:09 ---> Rodando servidor
+17:59:34 ---> Rodando servidor
+17:59:37 ---> Rodando servidor
+17:59:41 ---> admin login
+17:59:41 ---> encrypt
+18:00:40 ---> Redefinindo arquivo de configuracao da sala
+18:00:40 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:00:40 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:00:40 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:00:40 ---> Rodando servidor
+18:00:44 ---> Redefinindo arquivo de configuracao da sala
+18:00:44 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:00:44 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:00:44 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:00:44 ---> Rodando servidor
+18:00:49 ---> admin login
+18:00:49 ---> encrypt
+18:01:34 ---> Redefinindo arquivo de configuracao da sala
+18:01:34 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:01:34 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:01:34 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:01:34 ---> Rodando servidor
+18:02:07 ---> Redefinindo arquivo de configuracao da sala
+18:02:07 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:02:07 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:02:07 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:02:07 ---> Rodando servidor
+18:02:11 ---> Redefinindo arquivo de configuracao da sala
+18:02:11 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:02:11 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:02:11 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:02:11 ---> Rodando servidor
+18:02:12 ---> admin login
+18:02:12 ---> encrypt
+18:08:00 ---> Redefinindo arquivo de configuracao da sala
+18:08:00 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:08:00 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:08:00 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:08:00 ---> Rodando servidor
+18:08:04 ---> Redefinindo arquivo de configuracao da sala
+18:08:04 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:08:04 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:08:04 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:08:04 ---> Rodando servidor
+18:08:07 ---> admin login
+18:08:07 ---> encrypt
+18:09:16 ---> Redefinindo arquivo de configuracao da sala
+18:09:16 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:09:16 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:09:16 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:09:16 ---> Rodando servidor
+18:09:39 ---> Redefinindo arquivo de configuracao da sala
+18:09:39 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:09:39 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:09:39 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:09:39 ---> Rodando servidor
+18:09:43 ---> Redefinindo arquivo de configuracao da sala
+18:09:43 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:09:43 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:09:43 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:09:43 ---> Rodando servidor
+18:09:44 ---> admin login
+18:09:44 ---> encrypt
+18:10:52 ---> Redefinindo arquivo de configuracao da sala
+18:10:52 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:10:52 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:10:52 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:10:52 ---> Rodando servidor
+18:10:56 ---> Redefinindo arquivo de configuracao da sala
+18:10:56 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:10:56 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:10:56 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:10:57 ---> Rodando servidor
+18:11:01 ---> admin login
+18:11:01 ---> encrypt
+18:13:36 ---> Redefinindo arquivo de configuracao da sala
+18:13:37 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:13:37 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:13:37 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:13:37 ---> Rodando servidor
+18:13:42 ---> Redefinindo arquivo de configuracao da sala
+18:13:42 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:13:42 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:13:42 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:13:42 ---> Rodando servidor
+18:13:42 ---> admin login
+18:13:42 ---> encrypt
+18:13:55 ---> Comodo: sala sob invasao
+18:13:55 ---> Comodo: sala sob invasao
+18:14:01 ---> Notificacao enviada
+18:14:03 ---> Notificacao enviada
+18:15:00 ---> Redefinindo arquivo de configuracao da sala
+18:15:00 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:15:01 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:15:01 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:15:01 ---> Rodando servidor
+18:15:05 ---> Redefinindo arquivo de configuracao da sala
+18:15:05 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:15:05 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:15:05 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:15:05 ---> Rodando servidor
+18:15:07 ---> admin login
+18:15:07 ---> encrypt
+18:15:25 ---> Comodo: garagem sob invasao
+18:15:25 ---> Comodo: garagem sob invasao
+18:15:30 ---> Notificacao enviada
+18:15:30 ---> Notificacao enviada
+18:15:58 ---> Comodo: garagem sob invasao
+18:15:58 ---> Comodo: garagem sob invasao
+18:16:02 ---> Notificacao enviada
+18:16:04 ---> Notificacao enviada
+18:16:12 ---> Comodo: sala sob invasao
+18:16:12 ---> Comodo: sala sob invasao
+18:16:18 ---> Notificacao enviada
+18:16:18 ---> Notificacao enviada
+18:16:32 ---> Comodo: quarto sob invasao
+18:16:32 ---> Comodo: quarto sob invasao
+18:16:34 ---> Falha ao abrir imagem
+18:16:34 ---> Notificacao enviada
+18:16:34 ---> Falha ao abrir imagem
+18:16:34 ---> Notificacao enviada
+18:16:42 ---> Comodo: garagem sob invasao
+18:16:42 ---> Comodo: garagem sob invasao
+18:16:47 ---> Notificacao enviada
+18:16:47 ---> Notificacao enviada
+18:17:20 ---> Comodo: quarto sob invasao
+18:17:20 ---> Comodo: quarto sob invasao
+18:17:21 ---> Falha ao abrir imagem
+18:17:21 ---> Notificacao enviada
+18:17:21 ---> Falha ao abrir imagem
+18:17:21 ---> Notificacao enviada
+18:17:52 ---> Comodo: sala sob invasao
+18:17:52 ---> Comodo: sala sob invasao
+18:17:53 ---> Falha ao abrir imagem
+18:17:53 ---> Notificacao enviada
+18:17:53 ---> Comodo: garagem sob invasao
+18:17:53 ---> Falha ao abrir imagem
+18:17:53 ---> Notificacao enviada
+18:17:54 ---> Comodo: garagem sob invasao
+18:18:06 ---> Notificacao enviada
+18:18:07 ---> Notificacao enviada
+18:19:46 ---> Redefinindo arquivo de configuracao da sala
+18:19:46 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:19:46 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:19:46 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:19:46 ---> Rodando servidor
+18:19:53 ---> Redefinindo arquivo de configuracao da sala
+18:19:53 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:19:53 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:19:53 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:19:53 ---> Rodando servidor
+18:20:16 ---> Comodo: garagem sob invasao
+18:20:16 ---> Comodo: garagem sob invasao
+18:20:22 ---> Notificacao enviada
+18:20:27 ---> Notificacao enviada
+18:20:30 ---> Comodo: sala sob invasao
+18:20:30 ---> Comodo: sala sob invasao
+18:20:37 ---> Notificacao enviada
+18:20:37 ---> Notificacao enviada
+18:21:06 ---> Comodo: quarto sob invasao
+18:21:06 ---> Comodo: quarto sob invasao
+18:21:14 ---> Notificacao enviada
+18:21:20 ---> Notificacao enviada
+18:21:29 ---> admin login
+18:21:29 ---> encrypt
+18:21:48 ---> Comodo: garagem sob invasao
+18:21:48 ---> Comodo: garagem sob invasao
+18:22:01 ---> Notificacao enviada
+18:22:41 ---> Notificacao enviada
+18:23:11 ---> Redefinindo arquivo de configuracao da sala
+18:23:11 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:23:11 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:23:11 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:23:11 ---> Rodando servidor
+18:23:15 ---> Redefinindo arquivo de configuracao da sala
+18:23:15 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:23:16 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:23:16 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:23:16 ---> Rodando servidor
+18:23:33 ---> Redefinindo arquivo de configuracao da sala
+18:23:33 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:23:33 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:23:33 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:23:33 ---> Rodando servidor
+18:23:38 ---> Redefinindo arquivo de configuracao da sala
+18:23:38 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:23:38 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:23:38 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:23:38 ---> Rodando servidor
+18:23:41 ---> admin login
+18:23:41 ---> encrypt
+18:23:53 ---> Comodo: garagem sob invasao
+18:23:53 ---> Comodo: garagem sob invasao
+18:24:06 ---> Notificacao enviada
+18:24:10 ---> Notificacao enviada
+18:25:22 ---> Redefinindo arquivo de configuracao da sala
+18:25:22 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:25:22 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:25:22 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:25:22 ---> Rodando servidor
+18:25:28 ---> Redefinindo arquivo de configuracao da sala
+18:25:28 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:25:28 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:25:28 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:25:29 ---> Rodando servidor
+18:25:33 ---> admin login
+18:25:33 ---> encrypt
+18:25:44 ---> Comodo: garagem sob invasao
+18:25:44 ---> Comodo: garagem sob invasao
+18:26:12 ---> Notificacao enviada
+18:26:26 ---> Notificacao enviada
+18:27:47 ---> Redefinindo arquivo de configuracao da sala
+18:27:47 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:27:47 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:27:47 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:27:47 ---> Rodando servidor
+18:27:51 ---> Redefinindo arquivo de configuracao da sala
+18:27:51 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:27:51 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:27:51 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:27:51 ---> Rodando servidor
+18:28:01 ---> admin login
+18:28:01 ---> encrypt
+18:29:05 ---> Redefinindo arquivo de configuracao da sala
+18:29:05 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:29:05 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:29:05 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:29:05 ---> Rodando servidor
+18:29:09 ---> Redefinindo arquivo de configuracao da sala
+18:29:09 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:29:09 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:29:09 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:29:09 ---> Rodando servidor
+18:29:12 ---> admin login
+18:29:12 ---> encrypt
+18:29:26 ---> Comodo: sala sob invasao
+18:29:26 ---> Comodo: sala sob invasao
+18:29:33 ---> Notificacao enviada
+18:29:35 ---> Notificacao enviada
+18:36:08 ---> Redefinindo arquivo de configuracao da sala
+18:36:08 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:36:08 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:36:08 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:36:09 ---> Rodando servidor
+18:36:13 ---> Redefinindo arquivo de configuracao da sala
+18:36:13 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+18:36:13 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+18:36:13 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+18:36:13 ---> Rodando servidor
+18:36:15 ---> admin login
+18:36:15 ---> encrypt
+19:15:24 ---> Redefinindo arquivo de configuracao da sala
+19:15:24 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+19:15:25 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+19:15:25 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+19:15:25 ---> Rodando servidor
+19:15:29 ---> Redefinindo arquivo de configuracao da sala
+19:15:29 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+19:15:29 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+19:15:29 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+19:15:29 ---> Rodando servidor
+19:15:45 ---> Comodo: garagem sob invasao
+19:15:45 ---> Comodo: garagem sob invasao
+19:15:53 ---> Notificacao enviada
+19:15:54 ---> Notificacao enviada
+19:16:02 ---> Comodo: sala sob invasao
+19:16:03 ---> Comodo: sala sob invasao
+19:16:22 ---> Notificacao enviada
+19:16:28 ---> Notificacao enviada
+19:17:34 ---> Comodo: garagem sob invasao
+19:17:34 ---> Comodo: garagem sob invasao
+19:19:10 ---> Redefinindo arquivo de configuracao da sala
+19:19:10 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+19:19:10 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+19:19:10 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+19:19:10 ---> Rodando servidor
+19:19:15 ---> Redefinindo arquivo de configuracao da sala
+19:19:15 ---> Comodo: sala
+ Sensor de som: None
+ Sensor de Presenca: 4
+ Sensor de tracker: 2
+ Sensor de Luz: None
+ Camera ID: 2
+19:19:15 ---> Comodo: quarto
+ Sensor de som: 6
+ Sensor de Presenca: None
+ Sensor de tracker: 5
+ Sensor de Luz: None
+ Camera ID: 0
+19:19:15 ---> Comodo: garagem
+ Sensor de som: None
+ Sensor de Presenca: 20
+ Sensor de tracker: None
+ Sensor de Luz: 16
+ Camera ID: 1
+19:19:15 ---> Rodando servidor
+19:19:50 ---> Comodo: garagem sob invasao
+19:19:50 ---> Comodo: garagem sob invasao
+19:20:04 ---> Notificacao enviada
+19:20:10 ---> Notificacao enviada
+19:21:27 ---> Comodo: garagem sob invasao
+19:21:27 ---> Comodo: garagem sob invasao
+19:21:33 ---> Notificacao enviada
+19:21:33 ---> Notificacao enviada
+19:22:51 ---> admin login
+19:22:51 ---> encrypt
+19:23:37 ---> Comodo: sala sob invasao
+19:23:37 ---> Comodo: sala sob invasao
+19:23:42 ---> Notificacao enviada
+19:23:44 ---> Notificacao enviada

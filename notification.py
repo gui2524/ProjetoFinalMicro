@@ -1,11 +1,11 @@
 from requests import *
-from urllib.request import urlretrieve
+##from urllib.request import urlretrieve
 import log
 
 """-------------GLOBAL VARIABLES------------"""
 
-global_key = "COLOQUE A SUA CHAVE AQUI!"
-global_chatId = "COLOQUE O ID DA SUA CONVERSA AQUI!"
+global_key = "514006358:AAFHR8qpVhFFfH-xiL4hm_gONq16VfPWcDw"
+global_chatId = "440985403"
 global_baseAddress = "https://api.telegram.org/bot" + global_key
 global_nextUpdateId = 0
 
@@ -16,20 +16,25 @@ def sendMessage(message):
     address = global_baseAddress + "/sendMessage"
     data = {"chat_id": global_chatId, "text": message}
     response = post(address, data=data)
-    log.log(response)
+    log.log(response.text)
 
 def sendPhoto(imagePath):
     address = global_baseAddress + "/sendPhoto"
     data = {"chat_id": global_chatId}
-    photoFile = {"photo": open("foto.jpeg", "rb")}
+    try:
+        image = open(imagePath, "rb")
+    except:
+        log.eventLog("Falha ao abrir imagem")
+        return
+    photoFile = {"photo": image}
     response = post(address, data=data, files=photoFile)
-    log.log(response)
+    log.log(response.text)
 
 def getUpdates():
     address = global_baseAddress + "/getUpdates"
     data = {"offset": global_nextUpdateId}
     response = get(address, json=data)
-    log.log(response)
+    log.log(response.text)
 
     if response is None:
         return None
@@ -52,7 +57,7 @@ def getFile(fileId, fileName):
     address = global_baseAddress + "/getFile"
     data = {"file_id": fileId}
     response = get(endereco, json=data)
-    log.log(response)
+    log.log(response.text)
 
     if response is None:
         return None
@@ -61,6 +66,7 @@ def getFile(fileId, fileName):
     filePath = responseDict["result"]["file_path"]
 
     fileAddress = "https://api.telegram.org/file/bot" + global_key + "/" + filePath
-    urlretrieve(fileAddress, fileName)
+##    urlretrieve(fileAddress, fileName)
 
 """-------------TEST------------"""
+##sendMessage("oi")

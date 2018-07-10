@@ -1,16 +1,17 @@
 from datetime import datetime
+import os
 
 """-------------GLOBAL VARIABLES------------"""
-LOG_FILE = "log.txt"
 TIME_FORMAT = "%H:%M:%S"
-
+global_diretorio_atual = os.path.dirname(os.path.abspath(__file__))
+LOG_PATH = global_diretorio_atual + "/log/log.txt"
 
 """-------------FUNCTIONS------------"""
 
 def formatText(text):
     time = datetime.now()
     timeFormatted = time.strftime(TIME_FORMAT)
-    textFormatted = timeFormatted + " ---> " + text + "\n"
+    textFormatted = timeFormatted + " ---> " + str(text) + "\n"
     return textFormatted
 
 def log(text):
@@ -20,10 +21,10 @@ def log(text):
 def eventLog(text):
     logText = formatText(text)
     log(text)
-    with open(LOG_FILE, "a") as textFile:
+    with open(LOG_PATH, "a") as textFile:
         textFile.write(logText)
 
 
 """-------------TEST------------"""
-# eventLog("TesteA")
+##eventLog("TesteA")
 # log("TesteB")

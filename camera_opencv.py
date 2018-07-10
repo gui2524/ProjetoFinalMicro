@@ -1,5 +1,6 @@
 import cv2
 from base_camera import BaseCamera
+import log
 
 
 class Camera(BaseCamera):
@@ -11,6 +12,7 @@ class Camera(BaseCamera):
 
     @staticmethod
     def frames():
+        #print(str(Camera.video_source))
         camera = cv2.VideoCapture(Camera.video_source)
         if not camera.isOpened():
             raise RuntimeError('Could not start camera.')
